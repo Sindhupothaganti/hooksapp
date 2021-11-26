@@ -2,8 +2,8 @@ import './App.css';
 import React from 'react';
 import ClickCounter from './components/higherorderComponents/ClickCounter';
 import HoverCounter from './components/higherorderComponents/HoverCounter';
-
-
+import DocTitle from './components/customhooks/effect/DocTitle';
+import DocTitle2 from './components/customhooks/effect/DocTitle2';
 
 
 
@@ -11,11 +11,10 @@ function App() {
   return (
 
     <div className="App">
-     <ClickCounter/>
-     <HoverCounter/>
+      <DocTitle/>
+      <DocTitle2/>
     </div>
 
   );
 }
-
 export default App;
